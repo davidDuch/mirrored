@@ -1,2 +1,2 @@
 #!/bin/bash
-#add fix to exercise2 here
+sudo grep -v 'www.ascii-art.de' /etc/hosts | sudo tee /etc/hosts
